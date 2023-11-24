@@ -444,20 +444,3 @@ footer .textArea .colored {
         font-size: 18px;
     }
 }
-
-
-
-/*body.dark-mode {
-    background-color: #1f2024;
-    color: white;
-}
-body.dark-mode header {
-    background-color: black;
-    color: white;
-}
-
-<li>
-    <input type="checkbox" id="darkModeToggle">
-    <label for="darkModeToggle">Activer le mode sombre</label>
-</li>
-*/
