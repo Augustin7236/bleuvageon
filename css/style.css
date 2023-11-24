@@ -328,7 +328,7 @@ aside hr {
     margin-bottom: 10px;
 }
 
-aside .box_about_Developper .container{
+aside .box_about .container{
     border-radius: 50px;
     background: linear-gradient(145deg, #cacaca, #f0f0f0);
     box-shadow:  20px 20px 60px #bebebe,
@@ -339,29 +339,41 @@ aside .box_about_Developper .container{
     align-items: center; /* Centre les éléments horizontalement */
 }
 
-aside .box_about_Developper .container .post img {
+aside .box_about .container .post img {
     width: 75px; /* Ajustez la largeur selon vos besoins */
     height: 75px; /* Ajustez la hauteur selon vos besoins */
     border-radius: 50%;
-    margin-bottom: 20px; /* Espace entre l'image et le texte */
+    margin-bottom: 25px; /* Espace entre l'image et le texte */
 }
 
-aside .box_about_Developper .post {
-    display: grid;
-    grid-template-columns: 27% 70%;
-    column-gap: 3%;
-}
-aside .box_about_Developper .post img {
-    width: 100%;
-    border-radius: 6px;
-    cursor: pointer;
+aside .box_about .post {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 10px;
 }
 
-aside .box_about_Developper .post img:hover {
+aside .box_about .post img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+
+aside .box_about .post h2 {
+    display: inline-block;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0;
+}
+
+
+aside .box_about .post img:hover {
     opacity: 80%;
 }
 
-aside .h1aboutdev {
+aside .h1about {
     display: inline-block;
     color: black;
     font-size: 22px;
@@ -369,7 +381,7 @@ aside .h1aboutdev {
     font-family: "Open Sans", sans-serif;
 }
 
-aside .box_about_Developper .container .post h2 {
+aside .box_about .container .post h2 {
     display: inline-block;
     color: black;
     font-size: 22px;
@@ -377,15 +389,15 @@ aside .box_about_Developper .container .post h2 {
     font-family: "Open Sans", sans-serif;
     margin: 15%;
 }
-aside .box_about_Developper .post h3 {
+aside .box_about .post h3 {
     color: black;
     font-size: 14px;
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
 }
 
-aside .box_about_Developper .post h2:hover,
-aside .box_about_Developper .post h3:hover {
+aside .box_about .post h2:hover,
+aside .box_about .post h3:hover {
     color: #75dab0;
 }
 
@@ -506,12 +518,12 @@ footer .textArea .colored {
         grid-template-columns: 30% 67%;
         column-gap: 3%;
     }
-    aside .aboutMe .post {
+    aside .box_about .post {
         grid-template-columns: 20% 77%;
         column-gap: 3%;
     }
     aside .popularPost .post h2,
-    aside .aboutMe .post h2 {
+    aside .box_about .post h2 {
         font-size: 18px;
     }
 }
