@@ -454,4 +454,10 @@ footer .textArea .colored {
 body.dark-mode header {
     background-color: black;
     color: white;
-}*/
+}
+
+<li>
+    <input type="checkbox" id="darkModeToggle">
+    <label for="darkModeToggle">Activer le mode sombre</label>
+</li>
+*/
