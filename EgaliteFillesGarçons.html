@@ -13,7 +13,7 @@
     <!-- FONT AWESOME CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-    <link rel="stylesheet" href="css/PainContreLaFain.css">
+    <link rel="stylesheet" href="css/EgaliteFillesGarçons.css">
 </head>
 
 <body>
@@ -85,6 +85,10 @@
             <div class="navBar">
                 <ul>
                     <li><a href="index.html" class="active">🏠Home</a></li>
+                    <li>
+                    <input type="checkbox" id="darkModeToggle">
+                    <label for="darkModeToggle">Activer le mode sombre</label>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -180,5 +184,14 @@
     </footer>
 </body>
 <script src="js/navbar.js"></script>
+<script>
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    darkModeToggle.addEventListener('change', () => {
+        body.classList.toggle('dark-mode', darkModeToggle.checked);
+    });
+</script>
+
 
 </html>

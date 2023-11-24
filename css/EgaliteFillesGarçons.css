@@ -8,7 +8,6 @@
     transition: 0.2s ease;
     -webkit-tap-highlight-color: transparent;
 }
-
 body {
     min-height: 100vh;
     background-color: #f8f8f8;
@@ -445,3 +444,14 @@ footer .textArea .colored {
         font-size: 18px;
     }
 }
+
+
+
+/*body.dark-mode {
+    background-color: #1f2024;
+    color: white;
+}
+body.dark-mode header {
+    background-color: black;
+    color: white;
+}*/
