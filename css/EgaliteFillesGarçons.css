@@ -444,3 +444,29 @@ footer .textArea .colored {
         font-size: 18px;
     }
 }
+
+@keyframes slideInFromLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-left-to-right {
+    opacity: 0; /* Opacité à 0 par défaut */
+    transform: translateX(-100%); /* Déplacez la zone d'articles à gauche de l'écran */
+    animation: slideInFromLeft 0.5s ease forwards; /* Utilisez une animation définie par @keyframes */
+}
+
+.animate-right-to-left {
+    opacity: 0; /* Opacité à 0 par défaut */
+    transform: translateX(+100%); /* Déplacez la zone d'articles à gauche de l'écran */
+    animation: slideInFromLeft 0.5s ease forwards; /* Utilisez une animation définie par @keyframes */
+}
+
+.animate-right-to-left-delay-1s {
+    opacity: 0; /* Opacité à 0 par défaut */
+    transform: translateX(+100%); /* Déplacez la zone d'articles à gauche de l'écran */
+    animation: slideInFromLeft 0.5s ease forwards; /* Utilisez une animation définie par @keyframes */
+    animation-delay: 0.1s;
+}
