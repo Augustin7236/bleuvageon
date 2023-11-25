@@ -181,12 +181,6 @@ section .postArea hr {
     margin-bottom: 4px;
 }
 
-section .moreGamesArea hr,
-section .commentsArea hr {
-    border: 2px solid #e0e0e0;
-    margin-bottom: 10px;
-}
-
 section .postArea h1 a {
     color: black;
     font-size: 20px;
@@ -444,7 +438,6 @@ footer .textArea .colored {
         font-size: 18px;
     }
 }
-
 @keyframes slideInFromLeft {
     to {
         opacity: 1;
@@ -470,3 +463,4 @@ footer .textArea .colored {
     animation: slideInFromLeft 0.5s ease forwards; /* Utilisez une animation définie par @keyframes */
     animation-delay: 0.1s;
 }
+ 
