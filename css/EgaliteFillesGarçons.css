@@ -464,3 +464,60 @@ footer .textArea .colored {
     animation-delay: 0.1s;
 }
  
+.h1rougesouligne {
+    color: red;
+    text-decoration-line: underline;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.text {
+    color: black !important;
+    font-size: large;
+    text-align: center;
+}
+
+.text2 {
+    color: red;
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.li1 {
+    margin-bottom: 10px; /* Espacement entre les éléments de liste */
+    display: flex; /* Utilisez Flexbox pour aligner le texte et le cercle */
+    align-items: center; /* Alignement vertical au centre */
+    font-size: large;
+}
+
+.circle {
+    width: 8px; /* Diamètre du cercle */
+    height: 8px;
+    border-radius: 50%; /* Bordures arrondies pour créer un cercle */
+    background-color: black; /* Couleur du cercle */
+    margin-right: 10px; /* Espacement entre le cercle et le texte */
+}
+
+.card {
+    font-style: normal;
+    font-size: large;
+}
+
+.logo_article1 {
+    width: 650px !important;
+    height: auto !important;
+    display: block; /* Change to block to center horizontally */
+    margin: 0 auto; /* Add this to center horizontally */
+    max-width: 100%;
+}
+
+
+.logo_article2 {
+    width: 500px !important;
+    height: auto !important;
+    display: block; /* Change to block to center horizontally */
+    margin: 0 auto; /* Add this to center horizontally */
+    max-width: 100%;
+}
