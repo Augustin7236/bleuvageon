@@ -591,3 +591,47 @@ footer .textArea .colored {
     animation: slideInFromLeft 0.5s ease forwards; /* Utilisez une animation définie par @keyframes */
     animation-delay: 0.1s;
 }
+
+/* Styles pour toutes les tailles d'écran */
+/* Styles pour toutes les tailles d'écran */
+.bouton-ecole {
+    position: absolute;
+    top: 385px; /* Ajustez la valeur de 'top' en fonction de la position souhaitée */
+    left: 620px; /* Ajustez la valeur de 'left' en fonction de la position souhaitée */
+    width: 265px; /* Ajustez la largeur si nécessaire */
+    height: 65px; /* Ajustez la hauteur si nécessaire */
+    background-color: transparent; /* Rend le bouton invisible */
+    border: none;
+    outline: none;
+    font-size: 0; /* Rend le texte invisible */
+    color: transparent; /* Rend le texte invisible */
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+}
+
+/* Styles spécifiques pour les écrans de bureau (par exemple, avec une largeur minimale de 768 pixels) */
+@media only screen and (min-width: 1250px) {
+    .bouton-ecole {
+        /* Ajoutez des styles spécifiques pour les écrans de bureau ici */
+        /* Par exemple, vous pouvez rendre le bouton actif en ajustant les styles ou en modifiant la couleur */
+        background-color: transparent; /* Exemple de couleur pour le bouton actif sur PC */
+    }
+
+    .bouton-sonnerie {
+        display: none;
+    }
+}
+
+.bouton-sonnerie {
+    position: absolute;
+    top: 65px; /* Ajustez la valeur de 'top' en fonction de la position souhaitée */
+    left: 725px; /* Ajustez la valeur de 'left' en fonction de la position souhaitée */
+    width: 70px; /* Ajustez la largeur si nécessaire */
+    height: 65px; /* Ajustez la hauteur si nécessaire */
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 0; /* Rend le texte invisible */ 
+    cursor: pointer; /* Ajoutez un pointeur pour indiquer que le bouton est cliquable */
+    display: block; /* Affiche le bouton par défaut */
+}
