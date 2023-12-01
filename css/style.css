@@ -621,6 +621,16 @@ footer .textArea .colored {
     }
 }
 
+@media only screen and (max-width: 1250px) {
+    .bouton-ecole {
+        pointer-events: none;
+    }
+
+    .bouton-sonnerie {
+        pointer-events: none;
+    }
+}
+
 .bouton-sonnerie {
     position: absolute;
     top: 65px; /* Ajustez la valeur de 'top' en fonction de la position souhaitée */
